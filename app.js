@@ -13,7 +13,7 @@ function deleteLast() {
 function appendNumber(number) {
     displayValue += number;
     document.querySelector('box').value = displayValue;
-    console.log("button clicked");
+    
 }
 
 function appendOperator(operator) {
